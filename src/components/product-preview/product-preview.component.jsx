@@ -1,13 +1,18 @@
-import React from 'react'
-import "./product-preview.styles.scss"
+import React from "react";
+import "./product-preview.styles.scss";
 
-const ProductPriview = () => {
-    return (
-        <div>
-            Product preview
-        </div>
-    )
-}
-import "./product-preview.styles.css"
+const ProductPriview = ({imgUrl, name, price}) => {
+  return (
+    <div className='preview-item'>
+      <div className='preview-img'>
+        <img src={imgUrl} alt='image' />
+      </div>
+      <div className='preview-content'>
+      <h3>{name}</h3>
+      <p>price: ${price}</p>
+      </div>
+    </div>
+  );
+};
 
-export default ProductPriview
+export default ProductPriview;
