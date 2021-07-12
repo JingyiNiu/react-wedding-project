@@ -1,5 +1,5 @@
 import React from 'react'
-import "./details.styles.css"
+import "./details.styles.scss"
 
 const Details = () => {
     return (

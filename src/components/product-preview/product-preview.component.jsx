@@ -1,5 +1,5 @@
 import React from 'react'
-import "./product-preview.styles.css"
+import "./product-preview.styles.scss"
 
 const ProductPriview = () => {
     return (

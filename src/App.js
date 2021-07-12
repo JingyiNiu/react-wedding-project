@@ -1,16 +1,16 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-import Nav from "./components/nav/nav.component";
+import Header from "./components/header/header.component";
 import Footer from "./components/footer/footer.component";
 import Home from "./pages/home/home.component";
 import Details from "./pages/details/details.component";
 
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
     <Router>
-      <Nav />
+      <Header />
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/details' exact component={Details} />

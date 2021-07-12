@@ -1,0 +1,10 @@
+@import "../../App.scss";
+
+.footer{
+    min-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: $third-color;
+    padding: 40px 0;
+}
