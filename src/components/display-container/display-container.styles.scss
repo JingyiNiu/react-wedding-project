@@ -1,0 +1,19 @@
+@import "../../App.scss";
+
+.display-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border: 2px dashed $second-color;
+  border-radius: 10px;
+  overflow-y: auto;
+  max-height: 500px;
+
+  @media screen and (max-width: 860px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media screen and (max-width: 560px) {
+    grid-template-columns: 1fr;
+  }
+}

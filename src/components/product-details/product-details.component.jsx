@@ -8,39 +8,25 @@ import products from "../../data";
 import "./product-details.styles.scss";
 
 const ProductDetails = () => {
-  const [item, setItem] = useState([]);
   const { id } = useParams();
+  const product = products.filter((product) => product.prodId == id);
 
-  useEffect(() => {
-    fetchProduct();
-  }, []);
-
-  const fetchProduct = () => {
-    products.forEach((product) => {
-      if (product.prodId == id) {
-        setItem(product);
-      }
-    });
-  };
-
-  console.log(item);
-
-  // console.log(item.productMedia[0].url);
+  console.log(product);
 
   return (
     <div className='wrap'>
       <Button href='/' text='BACK' />
       <div className='details-container'>
         <div className='details-img'>
-          <img src='111' alt='product' />
+          <img src={`https://storage.googleapis.com/luxe_media/wwwroot/${product[0].productMedia[0].url}`} alt='product' />
         </div>
         <div className='details-content'>
-          <div className='details-name'>{item.title}</div>
+          <div className='details-name'>{product[0].title}</div>
           <div className='details-text'>
-            <p>Price: {item.price}</p>
-            <p>ID: {item.prodId}</p>
+            <p>Price: ${product[0].price}</p>
+            <p>ID: {product[0].prodId}</p>
             <p>Description:</p>
-            <p>{item.description}</p>
+            <p>{product[0].description}</p>
           </div>
         </div>
       </div>
