@@ -1,5 +1,4 @@
 import React from "react";
-import { useState, useEffect } from "react";
 
 import Button from "../button/button.component";
 import { useParams } from "react-router-dom";
@@ -10,8 +9,6 @@ import "./product-details.styles.scss";
 const ProductDetails = () => {
   const { id } = useParams();
   const product = products.filter((product) => product.prodId == id);
-
-  console.log(product);
 
   return (
     <div className='wrap'>
