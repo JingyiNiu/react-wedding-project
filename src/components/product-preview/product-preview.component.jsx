@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./product-preview.styles.scss";
 
 const ProductPriview = ({imgUrl, name, price}) => {

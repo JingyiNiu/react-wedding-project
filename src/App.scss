@@ -1,7 +1,7 @@
-$first-color:#bad7df;
-$second-color:#FFE2E2;
-$third-color:#F6F6F6;
-$fourth-color:#99DDCC;
+$first-color: #bad7df;
+$second-color: #ffe2e2;
+$third-color: #f6f6f6;
+$fourth-color: #99ddcc;
 
 * {
   margin: 0;
@@ -12,8 +12,7 @@ $fourth-color:#99DDCC;
 a {
   text-decoration: none;
   color: #000;
-}
-
-a:hover {
-  color: #999;
+  &:hover {
+    color: #999;
+  }
 }

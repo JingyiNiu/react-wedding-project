@@ -1,11 +1,12 @@
 import React from "react";
+
 import "./header.styles.scss";
 
 const Header = () => {
   return (
     <header className='header'>
       <div className='wrap'>
-        <h3>Wedding Products</h3>
+        <h2>Wedding Products</h2>
         <p>React Demo</p>
       </div>
     </header>

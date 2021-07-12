@@ -1,0 +1,14 @@
+@import "../../App.scss";
+
+.button {
+  border: none;
+  background-color: $first-color;
+  color: #f6f6f6;
+  margin-left: 6px;
+  padding: 8px 15px;
+  border-radius: 4px;
+
+  &:hover {
+    background-color: $fourth-color;
+  }
+}
