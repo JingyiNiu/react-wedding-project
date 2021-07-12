@@ -9,7 +9,7 @@ import "./product-details.styles.scss";
 
 const ProductDetails = () => {
   const [item, setItem] = useState([]);
-  let { id } = useParams();
+  const { id } = useParams();
 
   useEffect(() => {
     fetchProduct();
@@ -24,17 +24,15 @@ const ProductDetails = () => {
   };
 
   console.log(item);
-  console.log(item.productMedia[0].url);
+
+  // console.log(item.productMedia[0].url);
 
   return (
     <div className='wrap'>
       <Button href='/' text='BACK' />
       <div className='details-container'>
         <div className='details-img'>
-          <img
-            src="111"
-            alt='product'
-          />
+          <img src='111' alt='product' />
         </div>
         <div className='details-content'>
           <div className='details-name'>{item.title}</div>

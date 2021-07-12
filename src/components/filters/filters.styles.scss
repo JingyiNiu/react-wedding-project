@@ -1,0 +1,35 @@
+@import "../../App.scss";
+
+.filters {
+  padding: 0 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.filter-label {
+  margin-right: 10px;
+  align-self: center;
+}
+
+.catogory-filter,
+.price-filter,
+.ordering-filter {
+  display: flex;
+  margin-top: 20px;
+}
+
+.category {
+  width: 200px;
+}
+
+/* ordering */
+.sort-by {
+  width: 90%;
+}
+
+.ordering {
+  display: flex;
+  align-items: center;
+}
