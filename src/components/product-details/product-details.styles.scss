@@ -1,0 +1,27 @@
+@import "../../App.scss";
+
+.details-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.details-img {
+  max-width: 500px;
+  min-width: 300px;
+  margin-right: 20px;
+  img {
+    width: 100%;
+  }
+}
+
+.details-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.details-text {
+  margin-top: 10px;
+  p {
+    margin-top: 10px;
+  }
+}

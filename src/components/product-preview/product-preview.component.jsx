@@ -5,7 +5,7 @@ const ProductPriview = ({imgUrl, name, price}) => {
   return (
     <div className='preview-item'>
       <div className='preview-img'>
-        <img src={imgUrl} alt='image' />
+        <img src={imgUrl} alt='product' />
       </div>
       <div className='preview-content'>
       <h3>{name}</h3>
