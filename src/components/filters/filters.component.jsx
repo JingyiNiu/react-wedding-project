@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import DisplayContainer from "../display-container/display-container.component";
 
 import data from "../../data";
@@ -94,6 +94,19 @@ const Filters = () => {
     setProducts(productsByPriceAndCategory);
   };
 
+  const sort = () => {
+    const sortBy = document.querySelector("#sort-by").value;
+    if (sortBy == "lowtohigh") {
+      products.sort((a, b) => a.price - b.price);
+    } else if (sortBy == "hightolow") {
+      products.reverse((a, b) => a.price - b.price);
+    } else {
+      console.log("something wrong with sort function");
+    }
+    console.log(products[0].price)
+    setProducts(products)
+  };
+
   function resetPriceFilter() {
     const priceValue = document.querySelector("#price");
     priceValue.selectedIndex = 0;
@@ -150,14 +163,14 @@ const Filters = () => {
         </div>
 
         <div className='ordering-filter'>
-          <select className='form-select' id='sort-by'>
+          <select className='form-select' id='sort-by' onChange={sort}>
             <option value='default'>Sort by</option>
             <option value='lowtohigh'>Price Low to High</option>
             <option value='hightolow'>Price High to Low</option>
           </select>
         </div>
       </div>
-      <DisplayContainer products={products} />
+      <DisplayContainer products={this.state} />
     </div>
   );
 };
