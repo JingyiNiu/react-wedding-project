@@ -18,4 +18,11 @@ https://www.npmjs.com/package/node-sass
 Homepage   
 <img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/homepage.png" width=600>   
 
-Filter by category
+Filter by category   
+<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/filter-by-category.png" width=600>   
+
+Filter by category and price    
+<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/filter-by-price.png" width=600>   
+
+Sort by price low to high or high to low   
+<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/sort-low-to-high.png" width=400> <img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/sort-high-to-low.png" width=400>  
