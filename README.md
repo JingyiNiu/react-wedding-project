@@ -13,3 +13,9 @@ https://reactrouter.com/core/guides/quick-start
 ## node-sass
 https://www.npmjs.com/package/node-sass   
 ```npm i node-sass```
+
+## Screenshots
+Homepage   
+<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/homepage.png" width=600>   
+
+Filter by category
