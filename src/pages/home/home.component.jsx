@@ -8,7 +8,7 @@ import "./home.styles.scss";
 const Home = () => {
   return (
     <div className='wrap'>
-      <Filter />
+      <Filters />
     </div>
   );
 };

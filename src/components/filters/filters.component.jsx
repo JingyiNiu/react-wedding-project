@@ -103,8 +103,8 @@ const Filters = () => {
     } else {
       console.log("something wrong with sort function");
     }
-    console.log(products[0].price)
-    setProducts(products)
+    // console.log(products[0].price);
+    setProducts([...products]);
   };
 
   function resetPriceFilter() {
@@ -116,7 +116,6 @@ const Filters = () => {
     const soryByValue = document.querySelector("#sort-by");
     soryByValue.selectedIndex = 0;
   }
-
   return (
     <div className='wrap'>
       <div className='filters'>
@@ -170,7 +169,7 @@ const Filters = () => {
           </select>
         </div>
       </div>
-      <DisplayContainer products={this.state} />
+      <DisplayContainer products={products} />
     </div>
   );
 };
