@@ -16,16 +16,16 @@ https://www.npmjs.com/package/node-sass
 
 ## Screenshots
 Homepage   
-<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/homepage.png" width=600>   
+<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/homepage.png" width=800>   
 
 Filter by category   
-<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/filter-by-category.png" width=600>   
+<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/filter-by-category.png" width=800>   
 
 Filter by category and price    
-<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/filter-by-price.png" width=600>   
+<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/filter-by-price.png" width=800>   
 
 Sort by price low to high   
-<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/sort-low-to-high.png" width=600>   
+<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/sort-low-to-high.png" width=800>   
 
 Sort by price high to low   
-<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/sort-high-to-low.png" width=600>  
+<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/sort-high-to-low.png" width=800>  
