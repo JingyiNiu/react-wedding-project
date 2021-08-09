@@ -24,5 +24,8 @@ Filter by category
 Filter by category and price    
 <img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/filter-by-price.png" width=600>   
 
-Sort by price low to high or high to low   
-<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/sort-low-to-high.png" width=400 align="top"> <img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/sort-high-to-low.png" width=400 align="top">  
+Sort by price low to high   
+<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/sort-low-to-high.png" width=600>   
+
+Sort by price high to low   
+<img src="https://github.com/JingyiNiu/react-wedding-project/blob/master/public/screenshots/sort-high-to-low.png" width=600>  
